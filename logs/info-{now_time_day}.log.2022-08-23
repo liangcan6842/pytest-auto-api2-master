@@ -1,0 +1,356 @@
+INFO    2022-08-23 09:20:01,975D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=6DE2230C51AE70E169B7E9F5C18805CA;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":41632,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 162 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:02,204D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=a2c39132080748a185f8f366bf701f4b', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=6DE2230C51AE70E169B7E9F5C18805CA;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '211'}
+请求内容: {'id': 41632, 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 159 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:02,384D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 未登录状态下新增收藏网址
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=a06dab7fa3614843959182c2377b021a', 'Content-Length': '281'}
+请求内容: {'name': '自动生成收藏网址1543', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长: 141 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:09,467D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:run.py:22 
+                             _    _         _      _____         _
+              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+                  |_|
+                  开始执行xxx项目名称项目...
+                
+INFO    2022-08-23 09:20:12,079D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=B8066A3BBA45D3639C588D55CBB19B11;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":3546,"level":36,"nickname":"","rank":"666","userId":129462,"username":"1**00000001"},"collectArticleInfo":{"count":128},"userInfo":{"admin":false,"chapterTops":[],"coinCount":3546,"collectIds":[-1,-1,-1,-1,21630,-1,-1,-1,-1,-1,22665,1165,19263,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],"email":"","icon":"","id":129462,"nickname":"18800000001","password":"","publicName":"18800000001","token":"","type":0,"username":"18800000001"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 140 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:12,301D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=B8066A3BBA45D3639C588D55CBB19B11;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":41633,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 198 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:12,568D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=b8c301345323470f8967eeeb004f050a', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=B8066A3BBA45D3639C588D55CBB19B11;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '211'}
+请求内容: {'id': 41633, 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 163 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:12,754D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 未登录状态下新增收藏网址
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=299fc4575b584d899160e11bc289ab07', 'Content-Length': '281'}
+请求内容: {'name': '自动生成收藏网址1115', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长: 155 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:15,042D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 查看收藏网址列表接口
+请求路径: https://www.wanandroid.com/lg/collect/usertools/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=B8066A3BBA45D3639C588D55CBB19B11;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":[{"desc":"","icon":"","id":40861,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40864,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40869,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40873,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40880,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40886,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40891,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40913,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40914,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40915,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40917,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40922,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40942,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40943,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40944,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40945,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"7169","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40946,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"8339","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40948,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"3301","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40949,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40952,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"7019","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40954,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"3006","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40955,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40956,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"3879","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40958,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"9944","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40959,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40966,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址8373","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40972,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"8973","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40974,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"4626","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40975,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40976,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"4943","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40978,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"3221","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40979,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40993,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"8766","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40995,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"2870","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40996,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40997,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"2641","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":40999,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"6298","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41000,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41001,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"2490","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41003,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"8218","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41004,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41011,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"9090","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41013,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"413","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41014,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41015,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"2825","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41017,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"6316","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41018,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41020,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"2563","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41022,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"6579","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41023,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41025,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"4001","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41027,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"6648","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41028,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41072,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41079,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址4758","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41083,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址889","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41089,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41092,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41093,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41094,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41095,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41097,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41098,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化编辑网址名称","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41099,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41115,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41119,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41123,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41127,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41131,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41135,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41152,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41154,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41163,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41168,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41170,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41216,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"7609","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41220,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41240,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址6856","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41243,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41245,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41248,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址7184","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41253,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41260,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41271,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41274,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41285,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41286,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41287,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41288,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41289,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41290,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41291,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41292,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41293,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41294,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41301,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41305,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41309,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41313,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41317,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2,https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化,自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41333,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址4883","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41340,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址932","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41350,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41351,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41352,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41353,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41364,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41366,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41369,"link":"https://blog.csdn.net/Liu1998chuang/article/details/115908371?spm=1001.2014.3001.5501","name":"自动生成收藏网址9412","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41371,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41378,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41383,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址60","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41399,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址4555","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41414,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址1821","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41415,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址7267","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41416,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址5885","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41427,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41442,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址8919","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41448,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址7717","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41449,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址3982","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41451,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址5005","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41452,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41455,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址8420","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41456,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址9244","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41457,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址1497","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41458,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址9995","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41459,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址279","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41460,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址906","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41461,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址1715","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41463,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址1298","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41464,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址2124","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41465,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41466,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41467,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址6528","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41468,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址2684","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41470,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址8580","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41472,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址2740","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41476,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41482,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41492,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41494,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41497,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41498,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41499,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41502,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址2541","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41506,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41528,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"3491","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41529,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"1238","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41535,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41546,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址2477","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41548,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41549,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41555,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址8831","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41556,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址1772","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41557,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址974","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41560,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址7845","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41561,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址269","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41578,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址8280","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41579,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址9449","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41585,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},{"desc":"","icon":"","id":41616,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动生成收藏网址389","order":0,"userId":129462,"visible":1}],"errorCode":0,"errorMsg":""}
+接口响应时长: 214 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:15,785D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 正常登录
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '36', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'username': '18800000001', 'password': '123456'}
+接口响应内容: {"data":{"admin":false,"chapterTops":[],"coinCount":3546,"collectIds":[-1,-1,-1,-1,21630,-1,-1,-1,-1,-1,22665,1165,19263,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],"email":"","icon":"","id":129462,"nickname":"18800000001","password":"","publicName":"18800000001","token":"","type":0,"username":"18800000001"},"errorCode":0,"errorMsg":""}
+接口响应时长: 706 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:16,048D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入错误的密码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=2c96426034544c33b7ab4d305f2b8aa3', 'Content-Length': '232'}
+请求内容: {'username': '18800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 244 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:16,324D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 登录密码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=6785e633efff4767a40bec9939dfefc2', 'Content-Length': '231'}
+请求内容: {'username': '18800000001', 'password': None}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 254 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:16,579D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入非1开头的手机号码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=b4d867ce02d644ecaa4b8583eb3f9149', 'Content-Length': '232'}
+请求内容: {'username': '28800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 239 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:16,875D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入手机号码小于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=4eed7f4ff10f4a9e85c9bf11e4a4373f', 'Content-Length': '231'}
+请求内容: {'username': '1880000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 252 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:17,140D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入手机号码大于于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=f7cb5ff3a4cf4f169ad83d9dc8468010', 'Content-Length': '232'}
+请求内容: {'username': '18800000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 246 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:17,410D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 手机号码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=ff7a3e3120444536b52509547e6dfc7a', 'Content-Length': '225'}
+请求内容: {'username': None, 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 249 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:17,668D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 手机号码首位包含空格
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=111afa39591849ed8db0271b6af499a4', 'Content-Length': '234'}
+请求内容: {'username': ' 18867507063 ', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 244 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:17,900D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=B8066A3BBA45D3639C588D55CBB19B11;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":41634,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 149 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 09:20:18,067D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=48a29b65160a4f45aa9783a7da05d6aa', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=B8066A3BBA45D3639C588D55CBB19B11;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '211'}
+请求内容: {'id': '41634', 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 151 ms
+Http状态码: 200
+=====================================================
+ERROR   2022-08-23 09:20:18,081D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:114 用例总数: 15
+ERROR   2022-08-23 09:20:18,081D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:115 异常用例数: 0
+INFO    2022-08-23 09:20:18,082D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:118 用例执行时长: 8.25 s
+INFO    2022-08-23 09:20:18,083D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:122 用例成功率: 86.67 %
+INFO    2022-08-23 09:30:16,954D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:run.py:23 
+                             _    _         _      _____         _
+              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+                  |_|
+                  开始执行xxx项目名称项目...
+                
+ERROR   2022-08-23 09:30:18,526D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:114 用例总数: 15
+ERROR   2022-08-23 09:30:18,527D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:115 异常用例数: 0
+INFO    2022-08-23 09:30:18,528D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:118 用例执行时长: 1.11 s
+INFO    2022-08-23 09:30:18,528D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:conftest.py:122 用例成功率: 0.00 %
+INFO    2022-08-23 11:33:24,342D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 1
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=4E9F6C34CFF63D932A908C85F278858E;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":41657,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 190 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 11:33:24,629D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=57251d29109d492bb9351b0e090dfe7f', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=4E9F6C34CFF63D932A908C85F278858E;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '211'}
+请求内容: {'id': 41657, 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 196 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 11:33:24,792D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 未登录状态下新增收藏网址
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=2d0bbdeda80d4ac1a89046e0b30eecec', 'Content-Length': '281'}
+请求内容: {'name': '自动生成收藏网址2758', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长: 150 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:36,476D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 正常登录
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '36', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'username': '18800000001', 'password': '123456'}
+接口响应内容: {"data":{"admin":false,"chapterTops":[],"coinCount":3546,"collectIds":[-1,-1,-1,-1,21630,-1,-1,-1,-1,-1,22665,1165,19263,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],"email":"","icon":"","id":129462,"nickname":"18800000001","password":"","publicName":"18800000001","token":"","type":0,"username":"18800000001"},"errorCode":0,"errorMsg":""}
+接口响应时长: 774 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:36,769D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入错误的密码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=2a143d4d30514432b811cdc9031933c3', 'Content-Length': '232'}
+请求内容: {'username': '18800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 275 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:37,046D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 登录密码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=fee399f6a0c34e2188294b05ecdf2e25', 'Content-Length': '231'}
+请求内容: {'username': '18800000001', 'password': None}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 262 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:37,337D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入非1开头的手机号码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=82a174dd23ca4acd9396334b8f6e5811', 'Content-Length': '232'}
+请求内容: {'username': '28800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 275 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:37,639D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入手机号码小于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=da825f646f0442d7b6c0d5554b55bce4', 'Content-Length': '231'}
+请求内容: {'username': '1880000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 290 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:37,934D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 输入手机号码大于于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=8930e9a7707245e2b3e7891dbc29e28b', 'Content-Length': '232'}
+请求内容: {'username': '18800000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 278 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:38,235D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 手机号码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=d75173882450421d8041f642f0352486', 'Content-Length': '225'}
+请求内容: {'username': None, 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 286 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 16:21:38,524D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 手机号码首位包含空格
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=7b981e1d015c4954802574aab55207fb', 'Content-Length': '234'}
+请求内容: {'username': ' 18867507063 ', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 276 ms
+Http状态码: 200
+=====================================================
+INFO    2022-08-23 18:19:25,239D:\work_code\pytest-auto-api2\logs\info-{now_time_day}.log:log_decorator.py:40 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=7137F45D24DB872B5BE7003A95C86B71;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":41724,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 200 ms
+Http状态码: 200
+=====================================================

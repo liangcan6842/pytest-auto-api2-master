@@ -1,0 +1,6 @@
+WARNING 2022-08-23 09:20:02,206D:\work_code\pytest-auto-api2\logs\warning-{now_time_day}.log:teardown_control.py:318 程序中检查到您数据库开关为关闭状态，已为您跳过删除sql: UPDATE `api_test`.`ysq_test` SET `name` = '$json($.data.id)$' WHERE `name` = '2' LIMIT 1
+WARNING 2022-08-23 09:20:12,569D:\work_code\pytest-auto-api2\logs\warning-{now_time_day}.log:teardown_control.py:318 程序中检查到您数据库开关为关闭状态，已为您跳过删除sql: UPDATE `api_test`.`ysq_test` SET `name` = '$json($.data.id)$' WHERE `name` = '2' LIMIT 1
+WARNING 2022-08-23 09:20:12,783D:\work_code\pytest-auto-api2\logs\warning-{now_time_day}.log:dependent_case.py:134 检查到数据库开关为关闭状态，请确认配置
+WARNING 2022-08-23 09:20:18,082D:\work_code\pytest-auto-api2\logs\warning-{now_time_day}.log:conftest.py:117 跳过用例数: 2
+WARNING 2022-08-23 09:30:18,527D:\work_code\pytest-auto-api2\logs\warning-{now_time_day}.log:conftest.py:117 跳过用例数: 0
+WARNING 2022-08-23 11:33:24,630D:\work_code\pytest-auto-api2\logs\warning-{now_time_day}.log:teardown_control.py:318 程序中检查到您数据库开关为关闭状态，已为您跳过删除sql: UPDATE `api_test`.`ysq_test` SET `name` = '$json($.data.id)$' WHERE `name` = '2' LIMIT 1
